@@ -13,9 +13,25 @@
     integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
 </head>
 <body>
+  <nav class="navbar navbar-expand-md navbar-light and bg-light">
+    <a href="plants.html">Interesting plants</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navToggle" aria-controls="navToggle" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navToggle">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-link active">
+          <a class="nav-link" href="basic.html">Basic</a>
+        </li>
+        <li class="nav-link active">
+          <a class="nav-link" href="advanced.html">Advanced</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
   <h1>Plants by Kevin</h1>
   <div class="container">
-    <div>
+    <div class="row">
       <div class=" col-sm-2">H</div>
       <div class=" col-sm-2">A</div>
       <div class=" col-sm-2">R</div>
@@ -31,81 +47,94 @@
       <div class="col-md">Ilex</div>
       <div class="col-md">Sasa</div>
     </div>
-    <p>When the browser is resized, the row that breaks first is the row with the plant names. The reason this happens is because the single letters have enough room to fit, or occupy less space.</p>
-    <div>
-      <img class="img-fluid" height="200" width="200" src="Halesia_carolina0.jpg" alt="Halesia">
-      <img class="img-fluid" height="200" width="200" src="restio.jpg" alt="restio">
-      <img class="img-fluid" height="200" width="200" src="rose.jpg" alt="rose">
+  </div>
+  <p>When the browser is resized, the row that breaks first is the row with the plant names. The reason this happens is because the single letters have enough room to fit, or occupy less space.</p>
+  <div>
+    <img class="img-fluid" height="200" width="200" src="Halesia_carolina0.jpg" alt="Halesia">
+    <img class="img-fluid" height="200" width="200" src="restio.jpg" alt="restio">
+    <img class="img-fluid" height="200" width="200" src="rose.jpg" alt="rose">
+  </div>
+  <div>
+    <img class="img-thumbnail" height="200" width="200" src="Halesia_carolina0.jpg" alt="Halesia">
+    <img class="img-thumbnail" height="200" width="200" src="restio.jpg" alt="restio">
+    <img class="img-thumbnail" height="200" width="200" src="rose.jpg" alt="rose">
+  </div>
+  <table class="table table-bordered table-striped table-hover">
+    <caption>List of Nature</caption>
+    <thead>
+      <tr>
+        <th scope="col">Letter</th>
+        <th scope="col">Plant</th>
+        <th scope="col">Mountain</th>
+        <th scope="col">Lake</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <th scope="row">H</td>
+        <td>Halesia</td>
+        <td>HimalChuli</td>
+        <td>Hago</td>
+      </tr>
+      <tr>
+        <th scope="row">A</td>
+        <td>Acacia</td>
+        <td>Andrus</td>
+        <td>Abaya</td>
+      </tr>
+      <tr>
+        <th scope="row">R</td>
+        <td>Rose</td>
+        <td>Rainier</td>
+        <td>Ranco</td>
+      </tr>
+      <tr>
+        <th scope="row">R</td>
+        <td>Restio</td>
+        <td>Rajabasa</td>
+        <td>Rainy</td>
+      </tr>
+      <tr>
+        <th scope="row">I</td>
+        <td>Ilex</td>
+        <td>Ishizuchi</td>
+        <td>Iberta</td>
+      </tr>
+      <tr>
+        <th scope="row">S</td>
+        <td>Sasa</td>
+        <td>Sacabaya</td>
+        <td>Sagar</td>
+      </tr>
+    </tbody>
+  </table>
+  <div class="btn-toolbar" aria-label="Buttons">
+    <div class="btn-group" aria-label="Success">
+      <button class="btn btn-success">H</button>
+      <button class="btn btn-success">A</button>
+      <button class="btn btn-success">R</button>
     </div>
-    <div>
-      <img class="img-thumbnail" height="200" width="200" src="Halesia_carolina0.jpg" alt="Halesia">
-      <img class="img-thumbnail" height="200" width="200" src="restio.jpg" alt="restio">
-      <img class="img-thumbnail" height="200" width="200" src="rose.jpg" alt="rose">
+    <div class="btn-group" aria-label="Alert">
+      <button class="btn btn-warning">R</button>
+      <button class="btn btn-warning">I</button>
     </div>
-    <table class="table table-bordered table-striped table-hover">
-      <caption>List of Nature</caption>
-      <thead>
-        <tr>
-          <th scope="col">Letter</th>
-          <th scope="col">Plant</th>
-          <th scope="col">Mountain</th>
-          <th scope="col">Lake</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <th scope="row">H</td>
-          <td>Halesia</td>
-          <td>HimalChuli</td>
-          <td>Hago</td>
-        </tr>
-        <tr>
-          <th scope="row">A</td>
-          <td>Acacia</td>
-          <td>Andrus</td>
-          <td>Abaya</td>
-        </tr>
-        <tr>
-          <th scope="row">R</td>
-          <td>Rose</td>
-          <td>Rainier</td>
-          <td>Ranco</td>
-        </tr>
-        <tr>
-          <th scope="row">R</td>
-          <td>Restio</td>
-          <td>Rajabasa</td>
-          <td>Rainy</td>
-        </tr>
-        <tr>
-          <th scope="row">I</td>
-          <td>Ilex</td>
-          <td>Ishizuchi</td>
-          <td>Iberta</td>
-        </tr>
-        <tr>
-          <th scope="row">S</td>
-          <td>Sasa</td>
-          <td>Sacabaya</td>
-          <td>Sagar</td>
-        </tr>
-      </tbody>
-    </table>
-    <div class="btn-toolbar" aria-label="Buttons">
-      <div class="btn-group" aria-label="Success">
-        <button class="btn btn-success">H</button>
-        <button class="btn btn-success">A</button>
-        <button class="btn btn-success">R</button>
-      </div>
-      <div class="btn-group" aria-label="Alert">
-        <button class="btn btn-warning">R</button>
-        <button class="btn btn-warning">I</button>
-      </div>
-      <div class="btn-group" aria-label="Danger">
-        <button class="btn btn-danger">S</button>
-      </div>
+    <div class="btn-group" aria-label="Danger">
+      <button class="btn btn-danger">S</button>
     </div>
   </div>
+
+  <div class="btn-group" role="group">
+    <button type="button" class="btn dropdown-toggle btn-info" data-bs-toggle="dropdown">
+      Links
+    </button>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="basic.html">Basic</a>
+      <a class="dropdown-item" href="advanced.html">Advanced</a>
+    </div>
+  </div>
+
+
+  
 
 
 </body>
